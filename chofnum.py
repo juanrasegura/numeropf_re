@@ -1,11 +1,11 @@
 #!/usr/bin/env phyton
 #-*- coding: utf-8 -*-
 mayor = 0
-aburrido = False
-while not aburrido >0:
-	num= int(raw_input('mete un numero positivo (si te aburres mete un negativo)'))
+entretenido = True
+while entretenido:
+	num = int(raw_input('mete un numero positivo (si te aburres mete un negativo y terminas):'))
 		if num < 0:
-			aburrido = True
+			entretenido = False
 		elif num > mayor:
 			mayor = num
 			
