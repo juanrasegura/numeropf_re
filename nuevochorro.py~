@@ -1,12 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env phyton
 #-*- coding: utf-8 -*-
-mayor = 0
 num = int(raw_input("introduce un numero positivo para seguir(negativo para acabar): "))
+mayor = num
 while num >= 0:
 	if num > mayor: 
 		mayor = num 
 	num = int(raw_input("introduce un numero positivo para seguir(negativo para acabar): "))
-if mayor == 0:
-	print "game over" 
+if mayor <= 0:
+	print "no valeee"
 else:
-	print "el mayor es: " + str(mayor)
+	print "el mayor es:" +str(mayor)
