@@ -9,4 +9,4 @@ while num >= 0:
 if mayor == 0:
 	print "game over" 
 else:
-	print "el mayor es: " + str(mayor)
+	print "el mayor es: " + str(mayor) #el_mayor
